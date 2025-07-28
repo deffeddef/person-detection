@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local files
+tests/
+tmp_repo/
+models/ # The models will be copied in a separate layer
+
+# Other
+.idea/
+.vscode/
+*.swp
